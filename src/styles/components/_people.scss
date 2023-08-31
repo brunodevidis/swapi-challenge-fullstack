@@ -1,0 +1,81 @@
+// Film List Styles
+.people {
+  // height: 300px;
+  width: 500px;
+  max-width: 100%;
+  margin: 1rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+
+  &-buttons {
+    margin-top: 1rem;
+    display: flex;
+
+    &-details {
+      margin-right: 1rem;
+      padding: 0.5rem;
+      background: rgb(90, 123, 233);
+      border: 1px solid rgb(90, 123, 233);
+      border-radius: 10px;
+    }
+
+    &-favourite {
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem;
+      background: rgb(101, 216, 101);
+      border: 1px solid rgb(101, 216, 101);
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+
+  &-heading {
+    // border: 1px solid pink;
+    border-bottom: 1px solid #fff;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &-intro {
+    padding: 1rem;
+    width: 500px;
+    max-width: 100%;
+  }
+}
+
+// Film Deatil
+.film-detail {
+  // border: 1px solid red;
+
+  &-hover {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  &-button {
+    border: 1px solid yellow;
+  }
+
+  &-header {
+    padding: 1rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 100%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  &-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.film-buttons-unfavourite {
+  background-color: #fff;
+}
